@@ -23,10 +23,10 @@ const Home: NextPage = () => {
         <h1 className="text-5xl md:text-[5rem] leading-normal font-extrabold text-gray-700">
           Testing <span className="text-purple-300">T3</span> Stack
         </h1>
-        <form action="http://localhost:3000/api/auth/signin">
+        <form action="/api/auth/signin">
           <input type="submit" value="Sign In" />
         </form>
-        <form action="http://localhost:3000/api/auth/signout">
+        <form action="/api/auth/signout">
           <input type="submit" value="Sign Out" />
         </form>
       </main>

@@ -20,10 +20,10 @@ export const authOptions: NextAuthOptions = {
   // Configure one or more authentication providers
   adapter: PrismaAdapter(prisma),
   providers: [
-    SlackProvider({
-      clientId: env.SLACK_CLIENT_ID,
-      clientSecret: env.SLACK_CLIENT_SECRET,
-    }),
+    // SlackProvider({
+    //   clientId: env.SLACK_CLIENT_ID,
+    //   clientSecret: env.SLACK_CLIENT_SECRET,
+    // }),
     GoogleProvider({
       clientId: env.GOOGLE_CLIENT_ID,
       clientSecret: env.GOOGLE_CLIENT_SECRET,
